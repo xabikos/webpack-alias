@@ -10,6 +10,16 @@ module.exports = {
     filename: 'bundle.js',
     publicPath: "/assets/",
   },
+  resolve: {
+    root: path.resolve(__dirname),
+    extensions: ['', '.js', '.jsx'],
+    alias: {
+      app: 'components/app',
+      home: 'components/home',
+      utility: 'components/common/utility',
+      textService: 'services/textService'
+    }
+  },
   module: {
     loaders: [
       {

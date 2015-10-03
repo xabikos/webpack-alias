@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import Utility from './common/utility.jsx';
-import TextService from '../services/textService.js';
+import Utility from 'utility';
+import TextService from 'textService';
 
 export default class Home extends Component {
 	render() {

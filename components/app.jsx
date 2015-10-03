@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import Home from './home.jsx';
-import Utility from './common/utility.jsx';
+import Home from 'home';
+import Utility from 'utility';
 
 export default class App extends Component {
 	render() {
